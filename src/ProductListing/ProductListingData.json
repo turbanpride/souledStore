@@ -1,0 +1,22 @@
+{
+  "data": {
+    "PRODUCTS": ["Polos", "T-Shirts", "Full Sleve T-Shirts"],
+    "THEMES": [
+      "Harry Potter",
+      "The Lion King",
+      "Mickey Mouse",
+      "Ninja Turtles"
+    ],
+    "GENRES": [
+      "F.R.I.E.N.D.S",
+      "Marvels",
+      "Thanos",
+      "Disney",
+      "Spiderman",
+      "Thor",
+      "House Stark"
+    ],
+    "SIZE": ["XXS", "XS", "S", "M", "L", "XL", "XXL", "XXXL"],
+    "SORT": ["A to Z", "Price-High to Low", "Price-Low to High", "Newest","Popularity"]
+  }
+}

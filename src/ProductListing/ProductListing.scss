@@ -1,0 +1,114 @@
+.productListing-wrapper
+{
+    .product-listing-row
+    {
+        margin-top: 2%;
+        .product-category
+        {
+            color: #939598;
+        }
+        .product-category,.excl-title
+        {
+            display: inline;
+            font-size: 14px;
+        }
+        .product-price
+        {
+            color: #58595b;
+        }
+        .product-price,.excl-price
+        {
+            font-size: 14px;
+            float: right;
+            display: inline;
+            font-weight: 700;        
+        }
+        .excl-title,.excl-price
+        {
+            color:#3498db;
+            display: inline;
+        }
+    }
+    h5
+    {
+    color: #58595b;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(0,0,0,.13);
+    padding: 8px 0 3px;
+    text-align: center;
+    margin-bottom: 0;
+    white-space: nowrap;
+    width: 12em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    }
+    .filter-col
+    {
+        margin-top: 1.2%;
+        max-height: 350px;
+        overflow-y: scroll;
+        .filter-button
+        {
+            margin-left: 8%;
+            background: none;
+            outline: none;
+            border: 1px solid #37bdae;
+            width: 37%;
+            color: #37bdae;
+            height: 10%;
+            margin-top: 6%;
+            transition: all 0.4s;
+            border-radius: 5px;
+            &:hover
+            {
+                color: white;
+                background: #37bdae; 
+            }
+        }
+        ul
+        {
+            list-style-type: none;
+            padding-left: 0% !important;
+            input,p
+            {
+                display: inline;
+            }
+            p
+            {
+                color: #58595b;
+                font-size: 15px;
+                font-weight: 500;
+                opacity: 0.8;
+            }
+            
+        }
+        .filter-checkbox
+            {
+                color: #58595b !important;
+                font-weight: 700;
+            }
+        .card
+        {
+            border-left: none;
+            background: white;
+        }
+        .card-body
+        {
+            padding-bottom: 0%;
+        }
+        .chevron-down
+        {
+            float: right;
+            margin-top: 2%;
+        }
+        .card-header
+        {
+            background-color: white;
+            font-size: 15px;
+            color:#58595b;
+            font-weight: 700;
+            opacity: 0.8;
+        }
+    }
+}
