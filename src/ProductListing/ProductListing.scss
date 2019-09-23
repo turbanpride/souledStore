@@ -47,6 +47,8 @@
     {
         margin-top: 1.2%;
         max-height: 350px;
+        position: sticky;
+        top: 0px;
         overflow-y: scroll;
         .filter-button
         {
