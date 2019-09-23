@@ -1,6 +1,8 @@
 import React,{Component} from 'react';
 import './App.scss';
 import Home from './Home/Home';
+import AppRouter from './AppRouter';
+import Footer from './Footer/Footer';
 
 class App extends Component
 {
@@ -8,7 +10,9 @@ class App extends Component
   {
     return(
       <div className="app-wrapper">
+      <AppRouter/>
       <Home/>
+      <Footer/>
       </div>
     );
   }

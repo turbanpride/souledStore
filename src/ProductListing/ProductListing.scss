@@ -1,5 +1,18 @@
 .productListing-wrapper
 {
+    .header-wrapper
+    {
+        margin-top: 2%;
+    }
+    .breadcrumb-col
+    {
+        padding-top: 1.7%;
+        .breadcrumb
+        {
+            background-color: white !important;
+        }
+    }
+    
     .product-listing-row
     {
         margin-top: 2%;

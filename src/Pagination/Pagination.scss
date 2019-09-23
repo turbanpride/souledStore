@@ -1,4 +1,51 @@
-.pagination-wrapper
-{
-    
+.pagination-wrapper {
+  text-align: end;
+  margin-top: 5%;
+
+  .paginationPages-title {
+    font-weight: 600;
+    margin-right: 2%;
+  }
+
+  .paginator-ellipsis {
+    margin-right: 10px;
+  }
+  .angle-right
+  {
+      color: #a7a9ac;
+      cursor: pointer;
+  }
+  p {
+    cursor: pointer;
+    margin: 0.7%;
+    padding: 0px;
+    padding-bottom: 25px;
+    width: 27px;
+    height: 25px;
+    border-radius: 22px;
+    border: 1px solid transparent;
+    display: inline-block;
+    text-align: center;
+
+    &:hover {
+      content: "";
+      border: 1px solid #a7a9ac;
+    }
+
+    &:first-child {
+      color: #a7a9ac;
+      border: 1px solid #a7a9ac !important;
+    }
+
+    &:last-child {
+      margin-right: 5px;
+    }
+  }
+
+  .paginationPages-next {
+    margin-right: 1%;
+    cursor: pointer;
+    color: #a7a9ac;
+    font-weight: 600;
+  }
 }

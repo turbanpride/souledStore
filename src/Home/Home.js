@@ -2,7 +2,6 @@ import React,{Component} from 'react';
 import './Home.scss';
 import Body from './../Body/Body';
 import Footer from './../Footer/Footer';
-import ProductListing from './../ProductListing/ProductListing';
 
 class Home extends Component
 {
@@ -10,9 +9,8 @@ class Home extends Component
     {
         return(
             <div className="home-wrapper">
-            <ProductListing/>
-            {/* <Body/> */}
-            {/* <Footer/> */}
+            <Body/>
+            <Footer/>
             </div>
         );
     }

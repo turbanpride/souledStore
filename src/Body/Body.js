@@ -27,12 +27,20 @@ import FacebookIcon from '../Footer/fbicon.png';
 import InstaIcon from '../Footer/instaIcon.jpg';
 import SnapIcon from '../Footer/snapIcon.png';
 import TwitterIcon from '../Footer/twitter icon.png';
-
+import Footer from '../Footer/Footer';
 
 class Body extends Component {
-
+    constructor(props)
+    {
+        super(props);
+        this.goToProductListing = this.goToProductListing.bind(this);
+    }
+    goToProductListing()
+    {
+        window.location.href = "/ProductListing"
+    }
     render() {
-        var i, carouselStructure = [], carouselImages = [HomeCarousel1, HomeCarousel2, HomeCarousel3, HomeCarousel4, HomeCarousel5];
+        var self = this,i, carouselStructure = [], carouselImages = [HomeCarousel1, HomeCarousel2, HomeCarousel3, HomeCarousel4, HomeCarousel5];
         var len = carouselImages.length;
         for (i = 0; i < len; i++) {
             carouselStructure.push(
@@ -41,6 +49,7 @@ class Body extends Component {
                 </CarouselItem>
             );
         }
+
         return (
             <div className="body-wrapper">
                 <Carousel interval={3000} wrap="true">
@@ -79,7 +88,7 @@ class Body extends Component {
                     <Col sm={10}>
                         <Row className="show-grid">
                             <Col className="handle-overflow" sm={6}>
-                                <Image className="common-image tshirt-image" src={Tshirt} fluid />
+                    <Image className="common-image tshirt-image" src={Tshirt} fluid onClick={self.goToProductListing}/>
                             </Col>
                             <Col sm={6}>
                                 <Row className="show-grid handle-overflow">
